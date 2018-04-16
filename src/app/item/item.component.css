@@ -17,6 +17,10 @@
   padding-left: 11px;
 }
 
+.todo-complete {
+  text-decoration: line-through;
+}
+
 .btn-red {
   background: red;
 }

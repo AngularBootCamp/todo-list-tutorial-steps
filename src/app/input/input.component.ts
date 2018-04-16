@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'todo-input',
   template: `
-    <input>
+    <input [value]="title">
     <button>Save</button>
     <p>The title is: {{ title }}</p>
   `,

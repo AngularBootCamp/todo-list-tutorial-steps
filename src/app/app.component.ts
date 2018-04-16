@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
     <h1>
       Welcome to {{ title }}!
     </h1>
+
+    <todo-input></todo-input>
   `,
   styleUrls: ['./app.component.css']
 })
